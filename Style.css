@@ -1,0 +1,160 @@
+	@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+			body{
+				font-family: 'Basic', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+			header{
+				background-color: rgb(25, 30, 35)	;
+				color: white;
+				height: 70px;
+				padding: 10px 0;
+			}
+			a{	
+				text-decoration: none;
+			}
+			.a-header{
+				color: white;
+				font-size: 18px;
+				text-align: center;
+				position: relative;
+				top: -29px;
+				left: -15px;
+			}
+			img#Logo{
+				width: 120px;
+				height: 120px;
+				position: relative;
+				top: 0px;
+				left: -870px;
+			}
+			footer{
+
+			}
+			div#footer-background{
+				background-color: rgb(241, 242, 246);
+				position: relative;
+				top: 125px;
+				height: 90px;
+
+			}
+			div#footer-hr{
+				position: relative;
+				top: 27px;
+			}
+			.a-footer{
+				color: black;
+				position: relative;
+				top: 12px;
+			}
+			h6#h6-footer{
+				position: relative;
+				top: -12px;
+			}
+			button{
+				border:none;
+				background-color: rgb(45, 52, 54);
+				border-radius: 5px;
+				position: relative;
+				height: 30px;
+				top: 30px;
+			}
+			a#a-button{
+				color: white;
+
+			}
+			section#II-Grid{
+				display: grid;
+				grid-template-columns: repeat(3 ,1fr);
+				width:1.026px;
+				position: relative;
+				left: 12%;
+				top: -10px;
+	
+
+			}
+			p#paragrafo{
+				grid-column-start: 1;
+				grid-column-end: 4;	
+				text-align:center;
+			}
+			.GridC-1{
+				display: grid;
+				grid-template-columns: 1fr;
+			}
+			.GridC-2{
+				display: grid;
+				grid-template-columns: 1fr;
+			}
+			.GridC-3{
+				display: grid;
+				grid-template-columns: 1fr;
+			}
+			a#a-main{
+				color: white 	;
+				font-size: 25px;
+				font-family:'Basic', sans-serif;
+
+			}
+			button#button-main{
+				width: 600px;
+				height: 60px;
+				position:relative;
+				top: -60px;
+				background-color: rgb(25, 30, 35);
+			}
+			section#S-Enviar{
+				background-color: rgb(241, 242, 246);
+				border-radius: 15px;
+				position: relative;
+				top: -19px;
+				width: 26%;
+				height: 220px;
+				left: 37%;
+
+			}
+			textarea#textarea{
+				width: 97%;
+			} 
+
+			div#resultado{
+				background-color: rgb(5, 196, 107);
+				color: white;
+				position: relative;
+				top: -40px;
+				width: 26%;
+				left: 37%;
+				border-bottom-left-radius: 15px;
+				border-bottom-right-radius: 15px;	
+			}
+
+			input#input-button{
+				background-color: rgb(25, 30, 35);
+				color: white;
+				border-radius: 15px;
+
+			}
+			.redes{
+				width:50px;
+				height:50px;
+				margin-left: 10px;
+				margin-right: 10px;
+				position: relative;
+				top: -20px;
+			}
+			div#GridE{
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+			}
+			.b-Comprar{
+				position: relative;
+				top: 10px;
+			}
+			div#R-Grid{
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				width: 15%;
+				position: relative;
+				left: 42%;
+				top: 15px;
+			}

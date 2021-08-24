@@ -1,0 +1,95 @@
+	<!DOCTYPE html>
+<html>
+<head>	
+	<title>
+	Contato - Your Fashion
+	</title>
+</head>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+<body >
+	<header id="home">
+		<nav>
+		 <div align="right">
+		 	<table>
+		 		<tr>
+		 			<td><a class="a-header" href="Home.html"><img id="Logo" src="Imagens/YourFashion.png"></a></td>
+		 			<td><a class="a-header"  href="Home.html">HOME |</a></td>
+		 			<td><a class="a-header"  href="Conhecimento.html">CONHECIMENTO |</a></td>
+		 			<td><a class="a-header"  href="Projetos.html">PROJETOS |</a></td>
+		 			<td><a class="a-header"  href="Contato.html">CONTATO</a></td>
+		 		</tr>
+		 	</table>
+	 	 </div>
+		 </nav>
+	</header>
+
+	<h1 align="center">CONTATO</h1>
+	<hr width="17%">
+	<p></p>
+
+	<div id="R-Grid">
+			<a href="https://www.facebook.com/people/Deivid-Hugo/100006073369115"><img class="redes" src="Imagens/Facebook.png"></a>
+			<a href="https://www.instagram.com/d.eivi.d"><img  class="redes" src="Imagens/Instagram.png"></a> 
+			<a href="https://twitter.com/Deividhug"><img class="redes" src="Imagens/Twitter.png"></a>
+	</div>
+
+		<section id="S-Enviar">
+			<h2 align="center">ENVIAR PEDIDO</h2>
+			<form>
+				<center>
+					<table>
+ 						<tr>
+ 							<td>Nome: </td>
+ 							<td><input class="input" type="text" name="Nome"></td>
+ 						</tr>
+ 						<tr>
+ 							<td>Email: </td>
+ 							<td><input class="input" type="email" name="Email"></td>
+ 						</tr>
+ 						<tr>
+ 							<td>Descrição:</td>
+ 							<td><textarea class="input" id="textarea" name="Descrição"></textarea></td> 
+ 						</tr>
+ 						<tr>
+ 							<td></td>
+ 							<td><input onclick=enviar() id="input-button"value="ENVIAR" type="button" name="Botao"></td>
+ 					    </tr>
+ 					</table>
+ 				</center>
+ 			</form>
+		</section>
+	<div align="center" id="resultado"></div>	
+    <script>
+    </script>
+
+	<footer>
+		<div id="footer-background">.</div>
+		<div id="footer-hr"><hr></div>
+		<center><button><a id="a-button" href="#home">	<b>VOLTAR AO TOPO</b></a></button></center>
+		<div align="center">
+			<h6>
+				<a class="a-footer" href="https://www.facebook.com/people/Deivid-Hugo/100006073369115">Facebook |</a>
+				<a class="a-footer" href="https://www.instagram.com/d.eivi.d">Instagram |</a> 
+				<a class="a-footer" href="https://twitter.com/Deividhug">Twitter</a>
+			</h6>
+		</div>
+		<h6 align="center" id="h6-footer"> Todos os direitos reservados - Deivid Hugo 202022731<h6>
+	</footer>
+
+	<script type="text/javascript">
+		function enviar(){ 
+			var campos = document.querySelectorAll(".input")
+			var resultado = document.getElementById("resultado")
+			resultado.innerHTML = ""
+			for(var i = 0; i < campos.length; i++) {
+				var campo = campos[i]
+				resultado.innerHTML = resultado.innerHTML+campo.name+": "+campo.value+"<br>"
+				
+			}
+		}
+
+	</script>
+
+	</script>
+</body>
+</html>
